@@ -17,7 +17,7 @@
 [私有索引仓库HHYSpecs](https://github.com/HuiYouHua/HHYSpecs)
 
 
-
+添加我的私有仓库 **pod repo add HHYSpecs https://github.com/HuiYouHua/HHYSpecs.git**
 
 
 
