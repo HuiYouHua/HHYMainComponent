@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '8.0'
+
+target 'HHYMainComponent' do
+  
+    source 'https://github.com/CocoaPods/Specs.git'
+    source 'https://github.com/HuiYouHua/HHYSpecs.git'
+
+pod 'HHYCTMediator', '~> 0.0.3', :source => 'https://github.com/HuiYouHua/HHYSpecs.git'
+pod 'HHYComponentA', '~> 0.0.7', :source => 'https://github.com/HuiYouHua/HHYSpecs.git'
+pod 'HHYComponentB', '~> 0.0.13', :source => 'https://github.com/HuiYouHua/HHYSpecs.git'
+pod 'HHYComponentC', '~> 0.0.5', :source => 'https://github.com/HuiYouHua/HHYSpecs.git'
+end

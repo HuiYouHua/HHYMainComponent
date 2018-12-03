@@ -1,0 +1,1 @@
+../../../HHYComponentB/HHYComponentB/Controller/HHYComponentBViewController.h

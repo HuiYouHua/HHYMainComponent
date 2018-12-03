@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HHYCTMediator" "${PODS_ROOT}/Headers/Public/HHYComponentA" "${PODS_ROOT}/Headers/Public/HHYComponentB" "${PODS_ROOT}/Headers/Public/HHYComponentC"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HHYCTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/HHYComponentA" "${PODS_CONFIGURATION_BUILD_DIR}/HHYComponentB" "${PODS_CONFIGURATION_BUILD_DIR}/HHYComponentC"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/HHYCTMediator" -isystem "${PODS_ROOT}/Headers/Public/HHYComponentA" -isystem "${PODS_ROOT}/Headers/Public/HHYComponentB" -isystem "${PODS_ROOT}/Headers/Public/HHYComponentC"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"HHYCTMediator" -l"HHYComponentA" -l"HHYComponentB" -l"HHYComponentC"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

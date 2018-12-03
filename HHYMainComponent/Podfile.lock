@@ -1,0 +1,66 @@
+PODS:
+  - HHYComponentA (0.0.7):
+    - HHYComponentA/Controller (= 0.0.7)
+    - HHYComponentA/CTMediaCategory (= 0.0.7)
+    - HHYComponentA/Model (= 0.0.7)
+    - HHYComponentA/Target (= 0.0.7)
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentA/Controller (0.0.7):
+    - HHYComponentA/Model
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentA/CTMediaCategory (0.0.7):
+    - HHYComponentA/Model
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentA/Model (0.0.7):
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentA/Target (0.0.7):
+    - HHYComponentA/Controller
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentB (0.0.13):
+    - HHYComponentB/Controller (= 0.0.13)
+    - HHYComponentB/CTMediaCategory (= 0.0.13)
+    - HHYComponentB/Target (= 0.0.13)
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentB/Controller (0.0.13):
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentB/CTMediaCategory (0.0.13):
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentB/Target (0.0.13):
+    - HHYComponentB/Controller
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentC (0.0.5):
+    - HHYComponentC/Controller (= 0.0.5)
+    - HHYComponentC/CTMediaCategory (= 0.0.5)
+    - HHYComponentC/Target (= 0.0.5)
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentC/Controller (0.0.5):
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentC/CTMediaCategory (0.0.5):
+    - HHYCTMediator (~> 0.0.3)
+  - HHYComponentC/Target (0.0.5):
+    - HHYComponentC/Controller
+    - HHYCTMediator (~> 0.0.3)
+  - HHYCTMediator (0.0.3)
+
+DEPENDENCIES:
+  - HHYComponentA (~> 0.0.7)
+  - HHYComponentB (~> 0.0.13)
+  - HHYComponentC (~> 0.0.5)
+  - HHYCTMediator (~> 0.0.3)
+
+SPEC REPOS:
+  https://github.com/HuiYouHua/HHYSpecs.git:
+    - HHYComponentA
+    - HHYComponentB
+    - HHYComponentC
+    - HHYCTMediator
+
+SPEC CHECKSUMS:
+  HHYComponentA: 99e9d23500fa81706948a131bffb110109a4fd18
+  HHYComponentB: 0d16d56102b45b8c2811842ce20c550c62ea76f1
+  HHYComponentC: 903a146c8bc6276a74edd88a4ef01fd8e24f8a69
+  HHYCTMediator: 69f192a8af8bf473dd4b837f2c87051a5ce545c2
+
+PODFILE CHECKSUM: 9d340f23145b9ea87193ffdadfa2e981bb6a12e4
+
+COCOAPODS: 1.5.3

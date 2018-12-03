@@ -1,0 +1,1 @@
+../../../HHYComponentA/HHYComponentA/HHYComponentA.h
